@@ -32,9 +32,23 @@
 @use "../scss/object/project/gallery";
 @use "../scss/object/project/profile";
 @use "../scss/object/project/menubar";
+@use "../scss/object/project/main-visual" as *;
 
 /* Utility ------------ */
 
 @use "../scss/object/utility/align";
 @use "../scss/object/utility/display";
 @use "../scss/object/utility/margin";
+
+.p-main-visual {
+  .p-pic--first {
+    height: 300px;
+    background-image: url(/img/main-visual1.png);
+    background-size: cover;
+    overflow-x: hidden;
+    color: aqua;
+    p {
+      color: crimson;
+    }
+  }
+}
