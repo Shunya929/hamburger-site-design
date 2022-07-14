@@ -1,12 +1,20 @@
+@use '/scss/foundation/mixin' as mix;
+
 .p-main-visual {
   .p-pic--first {
-    height: 300px;
+    @include pic(285px);
     background-image: url(/img/main-visual1.png);
-    background-size: cover;
-    overflow-x: hidden;
-    color: aqua;
     p {
-      color: crimson;
+      color: #fff;
+      position: absolute;
+      font-size: 36px;
+      line-height: 54px;
+      font-weight: bold;
+      top: 100px;
+      left: 60px;
     }
+  }
+  .p-pic--second {
+    @extend .p-pic--first
   }
 }
