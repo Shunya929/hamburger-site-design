@@ -1,0 +1,30 @@
+@use 'mixin' as *;
+
+.p-menu-nav {
+  .container__menu-nav {
+    .p-pic--second {
+      @extend .p-pic--first;
+      @include pic(285px);
+      background-image: url(/img/main-visual2.png);
+      p {
+        color: #fff;
+        position: absolute;
+        font-size: 36px;
+        line-height: 54px;
+        font-weight: bold;
+      }
+    }
+    .p-pic--p-pic--third {
+      @extend .p-pic--first;
+      @include pic(285px);
+      background-image: url(/img/main-visual3.png);
+      p {
+        color: #fff;
+        position: absolute;
+        font-size: 36px;
+        line-height: 54px;
+        font-weight: bold;
+      }
+    }
+  }
+}

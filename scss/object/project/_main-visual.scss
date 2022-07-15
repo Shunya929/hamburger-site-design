@@ -1,4 +1,4 @@
-@use '/scss/foundation/mixin' as mix;
+@use 'mixin' as *;
 
 .p-main-visual {
   .p-pic--first {
@@ -13,8 +13,5 @@
       top: 100px;
       left: 60px;
     }
-  }
-  .p-pic--second {
-    @extend .p-pic--first
   }
 }
