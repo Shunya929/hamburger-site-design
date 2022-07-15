@@ -2,7 +2,7 @@
 
 .p-main-visual {
   .p-pic--first {
-    @include pic(285px);
+    @include mix.pic(285px);
     background-image: url(/img/main-visual1.png);
     p {
       color: #fff;
