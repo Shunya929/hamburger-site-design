@@ -14,14 +14,20 @@ $breakpoint: (
 
 @mixin pic($value) {
   position: relative;
-    height: $value;
-    background-repeat: no-repeat;
-    background-position-x: center;
-    background-position-y: bottom;
-    background-size: cover;
-    overflow-x: hidden; 
+  height: $value;
+  background-repeat: no-repeat;
+  background-position-x: center;
+  background-position-y: bottom;
+  background-size: cover;
+  overflow-x: hidden; 
 }
 
-@mixin text {
-  
+@mixin text($top:10px, $left:40px) {
+  color: #fff;
+  position: absolute;
+  font-size: 36px;
+  line-height: 54px;
+  font-weight: bold;
+  top: $top;
+  left: $left;
 }

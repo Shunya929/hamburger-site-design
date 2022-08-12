@@ -2,41 +2,47 @@
 * Foundation
 * ========================== */
 
-@use "../scss/foundation/reset.scss";
-@use "../scss/foundation/base";
-@use "../scss/foundation/mixin";
-@use "../scss/foundation/variable";
+@use "foundation/reset.scss";
+@use "foundation/base";
+@use "foundation/mixin";
+@use "foundation/variable";
 
 /**
 * Layout
 * ========================== */
 
-@use "../scss/layout/header";
-@use "../scss/layout/main";
-@use "../scss/layout/sidebar";
-@use "../scss/layout/footer";
+@use "layout/header";
+@use "layout/main";
+@use "layout/sidebar";
+@use "layout/footer";
 
 /* Object
 * ========================== */
 
 /* Component ------------ */
 
-@use "../scss/object/component/avatar";
-@use "../scss/object/component/button";
-@use "../scss/object/component/dialog";
+@use "object/component/avatar";
+@use "object/component/dialog";
+@use "object/component/pic__main";
+@use "object/component/btn__header";
 
 /* Project ------------ */
 
-@use "../scss/object/project/article";
-@use "../scss/object/project/comments";
-@use "../scss/object/project/gallery";
-@use "../scss/object/project/profile";
-@use "../scss/object/project/menubar";
-@use "../scss/object/project/main-visual";
-@use "../scss/object/project/menu-nav";
+@use "object/project/article";
+@use "object/project/comments";
+@use "object/project/gallery";
+@use "object/project/profile";
+@use "object/project/menubar";
+@use "object/project/main-visual";
+@use "object/project/menu-nav";
+@use "object/project/map__main";
+@use "object/project/hamburger";
+@use "object/project/background-sidebar";
+
+
 
 /* Utility ------------ */
 
-@use "../scss/object/utility/align";
-@use "../scss/object/utility/display";
-@use "../scss/object/utility/margin";
+@use "object/utility/align";
+@use "object/utility/display";
+@use "object/utility/margin";

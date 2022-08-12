@@ -1,5 +1,19 @@
 .l-sidebar {
-  position: absolute;
-  top: 20px;
-  right: 50px;
+  position: fixed;
+  overflow: auto;
+  z-index: 0;
+  background-color: #F2EDE9;
+  width: 95%;
+  top: 1000;
+  right: -10000px;
+  .container__sidebar {
+    position: relative;
+  }
+}
+
+.l-sidebar.is-open {
+  top: 0;
+  transform:translateX(-10000px);
+  width: 95%;
+  z-index: 1000;
 }

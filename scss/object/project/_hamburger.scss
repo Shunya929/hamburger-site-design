@@ -1,0 +1,17 @@
+.p-hamburger {
+  position: absolute;
+  top: 14px;
+  right: 16px;
+  z-index: 2;
+  h2.c-txt--changeable {
+    color: #707070;
+  }
+}
+
+.p-hamburger.is-open {
+  z-index: 1100;
+  h2.c-txt--changeable {
+    font-size: 80px;
+    font-weight: 500;
+  }
+}

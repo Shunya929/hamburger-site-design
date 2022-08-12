@@ -1,3 +1,32 @@
 .p-menubar__sidebar {
+  position: relative;
+  top: 212px;
   display: none;
+  ul {
+    h2 {
+      font-size: 24px;
+      font-weight: bold;
+      line-height: 36px;
+      text-align: left;
+      margin-left: 93px;
+      margin-bottom: 40px;
+    }
+    li {
+      font-size: 20px;
+      font-weight: normal;
+      line-height: 29px;
+      text-align-last: left;
+      margin-left: 113px;
+      &:last-child {
+        padding-bottom: 40px;
+      }
+    }
+    li + li {
+      margin-top: 23px;
+    }
+  }
+}
+
+.p-menubar__sidebar.is-open {
+  display: block;
 }

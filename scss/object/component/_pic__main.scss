@@ -1,0 +1,22 @@
+@use '../../foundation/mixin' as mix;
+
+.c-pic__main {
+  .p-main-visual {
+    background-image: url(/img/main-visual1.png);
+    @include mix.pic(285px);
+  }
+  .c-menu-nav--first {
+    background-image: url(/img/main-visual2.png);
+    @include mix.pic(642px);
+    margin: 20px;
+  }
+  .c-menu-nav--second {
+    background-image: url(/img/main-visual3.png);
+    @include mix.pic(643px);
+    margin: 20px;
+  }
+  .p-map__main {
+    background-image: url(/img/map.svg);
+    @include mix.pic(691px);
+  }
+}
