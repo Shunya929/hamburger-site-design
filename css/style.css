@@ -297,6 +297,11 @@ li {
   list-style: none;
 }
 
+body.is-open {
+  position: fixed;
+  overflow: hidden;
+}
+
 .l-header {
   height: 217px;
   background-color: #FFF7EF;
@@ -315,9 +320,10 @@ li {
   overflow: auto;
   z-index: 0;
   background-color: #F2EDE9;
-  width: 95%;
+  width: 90%;
   top: 1000;
-  right: -10000px;
+  left: 100%;
+  transition: 0.3s;
 }
 .l-sidebar .container__sidebar {
   position: relative;
@@ -325,8 +331,8 @@ li {
 
 .l-sidebar.is-open {
   top: 0;
-  transform: translateX(-10000px);
-  width: 95%;
+  transform: translateX(-100%);
+  width: 90%;
   z-index: 1000;
 }
 
@@ -595,6 +601,7 @@ li {
   transform: translateX(-50%);
   z-index: 20;
   top: 120px;
+  padding-bottom: 40px;
 }
 .p-map__main .container--map .c-colorbox {
   height: 415px;
@@ -616,18 +623,25 @@ li {
   z-index: 1100;
 }
 .p-hamburger.is-open h2.c-txt--changeable {
+  margin: 0;
+  padding: 0;
   font-size: 80px;
   font-weight: 500;
+  line-height: 0.5;
+  border: 0px;
+  -webkit-margin-before: 0;
+          margin-block-start: 0;
 }
 
 .p-background--sidebar.is-open {
   position: fixed;
-  width: 5%;
+  width: 10%;
   min-height: 100vh;
   background: rgba(0, 0, 0, 0.5);
   top: 0;
   left: 0;
   z-index: 1000;
+  transition: 0.5s;
 }
 
 /**

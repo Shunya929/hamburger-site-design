@@ -3,9 +3,10 @@
   overflow: auto;
   z-index: 0;
   background-color: #F2EDE9;
-  width: 95%;
+  width: 90%;
   top: 1000;
-  right: -10000px;
+  left: 100%;
+  transition: .3s;
   .container__sidebar {
     position: relative;
   }
@@ -13,7 +14,7 @@
 
 .l-sidebar.is-open {
   top: 0;
-  transform:translateX(-10000px);
-  width: 95%;
+  transform:translateX(-100%);
+  width: 90%;
   z-index: 1000;
 }

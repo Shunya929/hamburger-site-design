@@ -1,9 +1,10 @@
 .p-background--sidebar.is-open {
 	position: fixed;
-	width: 5%;
+	width: 10%;
 	min-height: 100vh;
 	background: rgba(0,0,0,.5);
 	top: 0;
 	left: 0;
 	z-index: 1000;
+	transition: .5s;
 }

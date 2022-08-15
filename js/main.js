@@ -9,6 +9,7 @@ jQuery(function($){
     $(".js-menubar__sidebar").toggleClass("is-open");
     $("js-hamburger").toggleClass("is-open");
     $(".js-background--sidebar").toggleClass("is-open");
+    $(".js-body").toggleClass("is-open");
     if ($("h2.js-txt--changeable").text() === 'Menu') {
       $("h2.js-txt--changeable").text('×');
     } else {
