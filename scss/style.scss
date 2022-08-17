@@ -23,8 +23,8 @@
 
 @use "object/component/avatar";
 @use "object/component/dialog";
-@use "object/component/pic__main";
-@use "object/component/btn__header";
+@use "object/component/pic";
+@use "object/component/btn";
 
 /* Project ------------ */
 
@@ -37,7 +37,7 @@
 @use "object/project/menu-nav";
 @use "object/project/map__main";
 @use "object/project/hamburger";
-@use "object/project/background-sidebar";
+@use "object/project/background";
 
 
 

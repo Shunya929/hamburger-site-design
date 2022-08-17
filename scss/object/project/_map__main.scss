@@ -1,6 +1,7 @@
 .p-map__main {
   background-color: black;
   .container--map {
+    overflow: visible;
     position: relative;
     h2 {
       position: absolute;
