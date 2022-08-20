@@ -298,6 +298,7 @@ li {
 }
 
 body.is-open {
+  width: 100%;
   position: fixed;
   overflow: hidden;
 }
@@ -322,7 +323,7 @@ body.is-open {
   z-index: 0;
   background-color: #F2EDE9;
   width: 90%;
-  top: 1000;
+  top: 0;
   left: 100%;
   transition: 0.3s;
 }
@@ -482,6 +483,9 @@ body.is-open {
   padding-bottom: 29px;
 }
 .p-menu-nav .container__menu-nav .c-menu-nav--first {
+  position: relative;
+  min-height: 642px;
+  overflow-y: hidden;
   padding-bottom: 30px;
 }
 .p-menu-nav .container__menu-nav .c-menu-nav--first h1.txt--waytoorder {
@@ -504,10 +508,9 @@ body.is-open {
 }
 .p-menu-nav .container__menu-nav .c-menu-nav--first .c-textbox--main {
   position: relative;
-  top: 55%;
+  top: 280px;
   width: 90%;
   margin: 0 auto;
-  margin-bottom: 15px;
   background-color: rgba(247, 247, 247, 0.5);
 }
 .p-menu-nav .container__menu-nav .c-menu-nav--first .c-textbox--main h2 {
@@ -529,6 +532,9 @@ body.is-open {
   padding-bottom: 10px;
 }
 .p-menu-nav .container__menu-nav .c-menu-nav--second {
+  position: relative;
+  min-height: 643px;
+  overflow-y: hidden;
   padding-bottom: 30px;
 }
 .p-menu-nav .container__menu-nav .c-menu-nav--second h1.txt--waytoorder {
@@ -551,10 +557,9 @@ body.is-open {
 }
 .p-menu-nav .container__menu-nav .c-menu-nav--second .c-textbox--main {
   position: relative;
-  top: 55%;
+  top: 300px;
   width: 90%;
   margin: 0 auto;
-  margin-bottom: 15px;
   background-color: rgba(247, 247, 247, 0.5);
 }
 .p-menu-nav .container__menu-nav .c-menu-nav--second .c-textbox--main h2 {
@@ -578,6 +583,7 @@ body.is-open {
 
 .p-map__main {
   background-color: black;
+  overflow-y: hidden;
 }
 .p-map__main .container--map {
   overflow: visible;

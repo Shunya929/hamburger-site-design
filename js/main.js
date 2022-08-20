@@ -16,5 +16,4 @@ jQuery(function($){
          $("h2.js-txt--changeable").text() === 'Menu' ? $("h2.js-txt--changeable").text('×'):$("h2.js-txt--changeable").text('Menu');
       });
     });
-    
 });

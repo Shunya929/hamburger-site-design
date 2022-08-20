@@ -4,6 +4,9 @@
   padding-bottom: 29px;
   .container__menu-nav {
     .c-menu-nav--first {
+      position: relative;
+      min-height: 642px;
+      overflow-y: hidden;
       padding-bottom: 30px;
       h1.txt--waytoorder {
         @include mix.text;
@@ -13,10 +16,9 @@
       }
       .c-textbox--main {
         position: relative;
-        top: 55%;
+        top: 280px;
         width: 90%;
         margin: 0 auto;
-        margin-bottom: 15px;
         background-color: rgba(247,247,247,0.5);
         h2 {
           text-align: left;
@@ -39,6 +41,9 @@
       }
     }
     .c-menu-nav--second {
+      position: relative;
+      min-height: 643px;
+      overflow-y: hidden;
       padding-bottom: 30px;
       h1.txt--waytoorder {
         @include mix.text;
@@ -48,10 +53,9 @@
       }
       .c-textbox--main {
         position: relative;
-        top: 55%;
+        top: 300px;
         width: 90%;
         margin: 0 auto;
-        margin-bottom: 15px;
         background-color: rgba(247,247,247,0.5);
         h2 {
           text-align: left;
