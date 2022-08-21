@@ -1,4 +1,8 @@
+@use '../../foundation/mixin' as mix;
+@use '';
+
 .p-map__main {
+  min-height: 691px;
   background-color: black;
   overflow-y: hidden;
   .container--map {
@@ -8,22 +12,22 @@
       position: absolute;
       color: #FFFFFF;
       font-size: 22px;
+      line-height: 2.5;
       font-weight: bold;
-      line-height: 45px;
       text-align: left;
+      top: 0;
+      left: 10%;
       width: 80%;
       margin: 0 auto;
-      margin-left: 52px;
       margin-top: 40px;
       z-index: 20;
-      top: 0;
     }
     p.underline--map {
       position: absolute;
       border-bottom: solid 2px #FFFFFF;
-      width: 55px;
       top: 80px;
-      margin-left: 52px;
+      left: 10%;
+      width: 55px;
       margin-top: 10px;
       margin-bottom: 10px;
     }
@@ -45,6 +49,12 @@
       height: 415px;
       background-color: rgba(0,0,0,0.3);
       z-index: 10;
+    }
+  }
+  @include mix.mq(tab) {
+    min-height: 415px;
+    h2 {
+      font-size: 30px;
     }
   }
 }

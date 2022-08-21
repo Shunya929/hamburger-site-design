@@ -12,7 +12,7 @@
         @include mix.text;
       }
       h1.txt--underbar {
-        @include mix.text(50px,40px);
+        @include mix.text(50px,9%);
       }
       .c-textbox--main {
         position: relative;
@@ -49,7 +49,7 @@
         @include mix.text;
       }
       h1.txt--underbar {
-        @include mix.text(50px,40px);
+        @include mix.text(50px,9%);
       }
       .c-textbox--main {
         position: relative;
@@ -74,6 +74,53 @@
           font-weight: normal;
           margin: 15px auto 15px 10px;
           padding-bottom: 10px;
+        }
+      }
+    }
+  }
+  @include mix.mq(tab) {
+    padding: 40px;
+    .container__menu-nav {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 40px;
+      .c-menu-nav--first {
+        min-height: 1193px;
+        width: 50%;
+        margin: 0;
+        padding: 0;
+        h1.txt--waytoorder {
+          font-size: 44px;
+        }
+        h1.txt--underbar {
+          font-size: 44px;
+        }
+        .c-textbox--main {
+          h2 {
+            font-size: 24px;
+          }
+          h3 {
+          }
+        }
+      }
+      .c-menu-nav--second {
+        min-height: 1196px;
+        width: 50%;
+        margin: 0;
+        padding: 0;
+        h1.txt--waytoorder {
+          font-size: 44px;
+        }
+        h1.txt--underbar {
+          font-size: 44px;
+        }
+        .c-textbox--main {
+          h2 {
+            font-size: 24px;
+          }
+          h3 {
+          }
         }
       }
     }

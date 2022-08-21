@@ -20,11 +20,11 @@ $breakpoint: (
   overflow-x: hidden; 
 }
 
-@mixin text($top:10px, $left:40px) {
+@mixin text($top:10px, $left:9%) {
   color: #fff;
   position: absolute;
   font-size: 36px;
-  line-height: 54px;
+  line-height: 1.5;
   font-weight: bold;
   top: $top;
   left: $left;

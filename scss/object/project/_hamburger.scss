@@ -1,14 +1,25 @@
-.p-hamburger {
-  position: absolute;
-  top: 12px;
-  right: 12px;
-  z-index: 2;
-  h2.c-txt--changeable {
-    font-size: 20px;
-    line-height: 1.3;
-    color: #707070;
+@use '../../foundation/mixin' as mix;
+
+.test {
+  .p-hamburger {
+    position: absolute;
+    top: 12px;
+    right: 12px;
+    z-index: 2;
+    h2.c-txt--changeable {
+      font-size: 20px;
+      line-height: 1.3;
+      color: #707070;
+    }
+    @include mix.mq(tab) {
+      h2.c-txt--changeable {
+        font-size: 34px;
+        line-height: 1.3;
+      }
+    }
   }
 }
+
 
 .p-hamburger.is-open {
   z-index: 1100;
@@ -20,5 +31,10 @@
     line-height: 0.5;
     border: 0px;
     margin-block-start: 0;
+  }
+  @include mix.mq(tab) {
+    h2.c-txt--changeable {
+      font-size: 100px;
+    }
   }
 }
