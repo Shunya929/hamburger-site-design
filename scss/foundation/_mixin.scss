@@ -29,3 +29,9 @@ $breakpoint: (
   top: $top;
   left: $left;
 }
+
+@mixin underline($weight,$width) {
+  position: absolute;
+  border-bottom: solid $weight #FFFFFF;
+  width: $width;
+}

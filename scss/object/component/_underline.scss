@@ -1,0 +1,15 @@
+@use '../../foundation/mixin' as mix;
+
+.c-underline--first {
+  @include mix.underline(4px,45px);
+  top: 85px;
+  left: 9%;
+}
+
+.c-underline--second {
+  @include mix.underline(2px,55px);
+  top: 90px;
+  left: 10%;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}

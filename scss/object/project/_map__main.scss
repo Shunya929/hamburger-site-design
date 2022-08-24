@@ -1,7 +1,8 @@
 @use '../../foundation/mixin' as mix;
-@use '';
 
 .p-map__main {
+  overflow: visible;
+  position: relative;
   min-height: 691px;
   background-color: black;
   overflow-y: hidden;
@@ -21,15 +22,6 @@
       margin: 0 auto;
       margin-top: 40px;
       z-index: 20;
-    }
-    p.underline--map {
-      position: absolute;
-      border-bottom: solid 2px #FFFFFF;
-      top: 80px;
-      left: 10%;
-      width: 55px;
-      margin-top: 10px;
-      margin-bottom: 10px;
     }
     p.txt--map {
       position: absolute;
