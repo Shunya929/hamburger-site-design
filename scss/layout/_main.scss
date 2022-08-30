@@ -1,3 +1,8 @@
+@use '../foundation/mixin' as mix;
+
 .l-main {
   background-color: #FFFDFA;
+  @include mix.mq(pc) {
+    width: 80%;
+  }
 }

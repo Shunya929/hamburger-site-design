@@ -15,11 +15,14 @@
   }
   @include mix.mq(tab) {
     width: 45%;
+    @include mix.mq(pc) {
+      right: 0;
+      width: 20%;
+    }
   }
 }
 
 .l-sidebar.is-open {
-  top: 0;
   transform:translateX(-100%);
   z-index: 1000;
 }

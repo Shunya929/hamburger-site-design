@@ -20,9 +20,10 @@
     min-height: 643px;
   }
   @include mix.mq(tab) {
-    padding: 40px;
+    flex-direction: row;
     justify-content: center;
     align-items: center;
+    padding: 40px;
     gap: 40px;
     .container--first {
       min-height: 1193px;
