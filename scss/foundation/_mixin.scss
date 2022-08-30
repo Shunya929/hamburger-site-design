@@ -20,18 +20,15 @@ $breakpoint: (
   overflow-x: hidden; 
 }
 
-@mixin text($top:10px, $left:9%) {
+@mixin text {
+  text-align: left;
   color: #fff;
-  position: absolute;
   font-size: 36px;
   line-height: 1.5;
   font-weight: bold;
-  top: $top;
-  left: $left;
 }
 
 @mixin underline($weight,$width) {
-  position: absolute;
   border-bottom: solid $weight #FFFFFF;
   width: $width;
 }

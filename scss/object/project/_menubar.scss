@@ -2,31 +2,6 @@
   position: relative;
   top: 212px;
   display: none;
-  h2 {
-    position: relative;
-    font-size: 24px;
-    line-height: 1.5;
-    font-weight: bold;
-    text-align: left;
-    left: 10%;
-    margin-bottom: 40px;
-  }
-  ul {
-    li {
-      position: relative;
-      font-size: 20px;
-      line-height: 1.5;
-      font-weight: normal;
-      text-align-last: left;
-      left: 15%;
-      &:last-child {
-        padding-bottom: 40px;
-      }
-    }
-    li + li {
-      margin-top: 23px;
-    }
-  }
 }
 
 .p-menubar__sidebar.is-open {

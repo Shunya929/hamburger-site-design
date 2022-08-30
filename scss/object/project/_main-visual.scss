@@ -2,18 +2,4 @@
 
 .p-main-visual {
   min-height: 285px;
-  h2 {
-    color: #fff;
-    position: absolute;
-    font-size: 36px;
-    line-height: 1.5;
-    font-weight: bold;
-    top: 110px;
-    left: 11%;
-  }
-  @include mix.mq(tab) {
-    h1 {
-      display: none;
-    }
-  }
 }

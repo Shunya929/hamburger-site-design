@@ -1,0 +1,94 @@
+@use '../../foundation/mixin' as mix;
+
+//header
+.txt-headline__header {
+  font-size: 40px;
+  line-height: 1.3;
+  text-align: center;
+  padding-top: 50px;
+}
+
+//main-visual
+.txt-headline__mainvisual {
+  @include mix.text;
+  position: absolute;
+  top: 110px;
+  left: 11%;
+  @include mix.mq(tab) {
+    display: none;
+  }
+}
+
+//menu-nav
+.c-text__main {
+  display: flex;
+  flex-direction: column;
+  align-content: flex-start;
+  position: relative;
+  left: 6%;
+  top: 3%;
+  .txt--waytoorder {
+    @include mix.text;
+    @include mix.mq(tab) {
+      font-size: 44px;
+    }
+  }
+}
+
+//map
+.txt-headline__map {
+  position: absolute;
+  color: #FFFFFF;
+  font-size: 22px;
+  line-height: 2.5;
+  font-weight: bold;
+  text-align: left;
+  top: 0;
+  left: 10%;
+  width: 80%;
+  margin: 0 auto;
+  margin-top: 40px;
+  z-index: 20;
+  @include mix.mq(tab) {
+    font-size: 30px;
+  }
+}
+.txt-long__map {
+  position: absolute;
+  color: #FFFFFF;
+  font-size: 14px;
+  font-weight: normal;
+  line-height: 33px;
+  width: 80%;
+  text-align: left;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 20;
+  top: 120px;
+  padding-bottom: 40px;
+}
+
+//sidebar
+.txt-category__sidebar {
+  position: relative;
+  font-size: 24px;
+  line-height: 1.5;
+  font-weight: bold;
+  text-align: left;
+  left: 10%;
+  margin-bottom: 40px;
+}
+.txt-itemname__sidebar {
+  position: relative;
+  font-size: 20px;
+  line-height: 1.5;
+  font-weight: normal;
+  text-align-last: left;
+  left: 15%;
+  &:last-child {
+    padding-bottom: 40px;
+  }
+}
+.txt-itemname__sidebar + .txt-itemname__sidebar {
+  margin-top: 23px;
+}

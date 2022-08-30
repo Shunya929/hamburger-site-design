@@ -1,9 +1,8 @@
 @use '../foundation/mixin' as mix;
 
 .l-sidebar {
-  position: fixed;
+  position: absolute;
   overflow: auto;
-  z-index: 0;
   background-color: #F2EDE9;
   height: 100vh;
   width: 90%;

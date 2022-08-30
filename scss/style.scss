@@ -21,23 +21,20 @@
 
 /* Component ------------ */
 
-@use "object/component/avatar";
-@use "object/component/dialog";
 @use "object/component/pic";
 @use "object/component/btn";
 @use "object/component/underline";
+@use "object/component/text";
+@use "object/component/textbox";
+@use "object/component/input";
 
 /* Project ------------ */
 
-@use "object/project/article";
 @use "object/project/comments";
-@use "object/project/gallery";
-@use "object/project/profile";
 @use "object/project/menubar";
 @use "object/project/main-visual";
 @use "object/project/menu-nav";
-@use "object/project/map__main";
-@use "object/project/hamburger";
+@use "object/project/map";
 @use "object/project/background";
 
 

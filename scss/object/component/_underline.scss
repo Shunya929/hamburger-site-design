@@ -2,12 +2,11 @@
 
 .c-underline--first {
   @include mix.underline(4px,45px);
-  top: 85px;
-  left: 9%;
 }
 
 .c-underline--second {
   @include mix.underline(2px,55px);
+  position: absolute;
   top: 90px;
   left: 10%;
   margin-top: 10px;

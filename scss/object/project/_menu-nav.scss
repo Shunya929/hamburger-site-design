@@ -1,79 +1,26 @@
 @use '../../foundation/mixin' as mix;
 
 .p-menu-nav {
+  display: flex;
+  flex-direction: column;
   padding: 20px 20px 40px 20px;
   .container--first {
-    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
     overflow-y: hidden;
     min-height: 642px;
     margin-bottom: 20px;
-    padding-bottom: 30px;
-    h2.txt--waytoorder {
-      @include mix.text;
-    }
-    .c-textbox--main {
-      position: relative;
-      top: 280px;
-      width: 90%;
-      margin: 0 auto;
-      background-color: rgba(247,247,247,0.5);
-      dt {
-        text-align: left;
-        color: #3C2A10;
-        font-size: 22px;
-        line-height: 1.1;
-        font-weight: bold;
-        margin: 15px auto 15px 10px;
-        padding-top: 10px;
-      }
-      dd {
-        text-align: left;
-        color: #3C2A10;
-        font-size: 16px;
-        line-height: 1.4;
-        font-weight: normal;
-        margin: 15px auto 15px 10px;
-        padding-bottom: 10px;
-      }
-    }
   }
   .container--second {
-    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
     overflow-y: hidden;
     min-height: 643px;
-    padding-bottom: 30px;
-    h2.txt--waytoorder {
-      @include mix.text;
-    }
-    .c-textbox--main {
-      position: relative;
-      top: 300px;
-      width: 90%;
-      margin: 0 auto;
-      background-color: rgba(247,247,247,0.5);
-      dt {
-        text-align: left;
-        color: #3C2A10;
-        font-size: 22px;
-        line-height: 1.1;
-        font-weight: bold;
-        margin: 15px auto 15px 10px;
-        padding-top: 10px;
-      }
-      dd {
-        text-align: left;
-        color: #3C2A10;
-        font-size: 16px;
-        line-height: 1.4;
-        font-weight: normal;
-        margin: 15px auto 15px 10px;
-        padding-bottom: 10px;
-      }
-    }
   }
   @include mix.mq(tab) {
     padding: 40px;
-    display: flex;
     justify-content: center;
     align-items: center;
     gap: 40px;
@@ -82,32 +29,12 @@
       width: 50%;
       margin: 0;
       padding: 0;
-      h2.txt--waytoorder {
-        font-size: 44px;
-      }
-      .c-textbox--main {
-        dt {
-          font-size: 24px;
-        }
-        dd {
-        }
-      }
     }
     .container--second {
       min-height: 1196px;
       width: 50%;
       margin: 0;
       padding: 0;
-      h2.txt--waytoorder {
-        font-size: 44px;
-      }
-      .c-textbox--main {
-        dt {
-          font-size: 24px;
-        }
-        dd {
-        }
-      }
     }
   }
 }

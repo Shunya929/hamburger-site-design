@@ -1,0 +1,25 @@
+.c-textbox {
+  .textbox--main {
+    width: 90%;
+    margin: 0 auto;
+    background-color: rgba(247,247,247,0.5);
+    dt {
+      text-align: left;
+      color: #3C2A10;
+      font-size: 22px;
+      line-height: 1.1;
+      font-weight: bold;
+      margin: 15px auto 15px 10px;
+      padding-top: 10px;
+    }
+    dd {
+      text-align: left;
+      color: #3C2A10;
+      font-size: 16px;
+      line-height: 1.4;
+      font-weight: normal;
+      margin: 15px auto 15px 10px;
+      padding-bottom: 10px;
+    }
+  }
+}
