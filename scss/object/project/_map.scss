@@ -17,5 +17,11 @@
   }
   @include mix.mq(tab) {
     min-height: 415px;
+    @include mix.mq(pc) {
+      .c-colorbox {
+        min-height: 691px;
+        width: 61%;
+      }
+    }
   }
 }

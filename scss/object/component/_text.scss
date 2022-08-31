@@ -21,6 +21,7 @@
     display: none;
     @include mix.mq(pc) {
       display: block;
+      font-size: 40px;
     }
   }
 }
@@ -38,7 +39,7 @@
     @include mix.mq(tab) {
       font-size: 44px;
       @include mix.mq(pc) {
-        font-size: 80px;
+        font-size: 60px;
       }
     }
   }
@@ -60,6 +61,9 @@
   z-index: 20;
   @include mix.mq(tab) {
     font-size: 30px;
+    @include mix.mq(pc) {
+      font-size: 36px;
+    }
   }
 }
 .txt-long__map {
@@ -77,6 +81,12 @@
   padding-bottom: 40px;
   @include mix.mq(tab) {
     top: 130px;
+    @include mix.mq(pc) {
+      font-size: 16px;
+      top: 190px;
+      left: 30%;
+      width: 40%;
+    }
   }
 }
 
@@ -103,4 +113,19 @@
 }
 .txt-itemname__sidebar + .txt-itemname__sidebar {
   margin-top: 23px;
+}
+
+//footer
+.txt-headline__footer {
+  font-size: 20px;
+  font-weight: normal;
+  line-height: 29px;
+  padding-top: 40px;
+  padding-bottom: 30px;
+}
+.txt-copyright__footer {
+  font-size: 14px;
+  font-weight: normal;
+  line-height: 20px;
+  padding-bottom: 30px;
 }

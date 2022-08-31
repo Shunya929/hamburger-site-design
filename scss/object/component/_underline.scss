@@ -2,6 +2,9 @@
 
 .c-underline--first {
   @include mix.underline(4px,45px);
+  @include mix.mq(pc) {
+    @include mix.underline(4px,70px);
+  }
 }
 
 .c-underline--second {
@@ -13,5 +16,8 @@
   margin-bottom: 10px;
   @include mix.mq(tab) {
     top: 100px;
+    @include mix.mq(tab) {
+      top: 130px;
+    }
   }
 }

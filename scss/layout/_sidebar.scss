@@ -4,7 +4,7 @@
   position: absolute;
   overflow: auto;
   background-color: #F2EDE9;
-  height: 100vh;
+  height: 100%;
   width: 90%;
   top: 0;
   left: 100%;
@@ -16,7 +16,10 @@
   @include mix.mq(tab) {
     width: 45%;
     @include mix.mq(pc) {
-      right: 0;
+      overflow: initial;
+      height: calc(100% - 217px);
+      width: 19%;
+      transform:translateX(-100%);
     }
   }
 }
