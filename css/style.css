@@ -310,6 +310,9 @@ body.is-open {
 }
 
 @media screen and (min-width: 1281px) {
+  body {
+    display: grid;
+  }
   .l-header {
     grid-row: 1;
     grid-column: 1;

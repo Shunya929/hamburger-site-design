@@ -1,6 +1,9 @@
 @use './mixin' as mix;
 
 @include mix.mq(pc) {
+  body {
+    display: grid;
+  }
   .l-header {
     grid-row: 1;
     grid-column: 1;
