@@ -2,7 +2,4 @@
 
 .l-main {
   background-color: #FFFDFA;
-  @include mix.mq(pc) {
-    width: 80%;
-  }
 }

@@ -3,7 +3,4 @@
 .l-header {
   min-height: 217px;
   background-color: #FFF7EF;
-  @include mix.mq(pc) {
-    width: 80%;
-  }
 }
