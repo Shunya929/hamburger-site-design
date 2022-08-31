@@ -28,7 +28,7 @@ jQuery(function($){
   $(function() {
     if (window.matchMedia("(min-width: 1281px)").matches) {
       $('.js-sidebar').css('height',pc_sidebar +'px');
-      $('.js-hamburger').off('click toggleClass');
+      $('.js-hamburger').off('click');
     } else {
       $('.js-sidebar').css('height',s_sidebar +'px');
     };
