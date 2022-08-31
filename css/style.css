@@ -441,6 +441,7 @@ body.is-open {
 
 .button__sidebar {
   height: 0;
+  padding-right: 7px;
 }
 
 .p-hamburger {
@@ -478,10 +479,6 @@ body.is-open {
   .p-hamburger.is-open .c-txt--changeable {
     font-size: 100px;
   }
-}
-
-.button__sidebar {
-  padding-right: 7px;
 }
 
 .c-underline--first {
