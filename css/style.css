@@ -309,27 +309,6 @@ body.is-open {
   overflow: hidden;
 }
 
-@media screen and (min-width: 1281px) {
-  body {
-    display: grid;
-  }
-  .l-header {
-    grid-row: 1;
-    grid-column: 1;
-  }
-  .l-main {
-    grid-row: 2;
-    grid-column: 1;
-  }
-  .l-sidebar {
-    grid-row: 1;
-    grid-column: 2;
-  }
-  .l-footer {
-    grid-row: 3;
-    grid-column: 1;
-  }
-}
 .l-header {
   min-height: 217px;
   background-color: #FFF7EF;
@@ -399,6 +378,13 @@ body.is-open {
   padding-bottom: 30px;
 }
 
+@media screen and (min-width: 1281px) {
+  .l-container {
+    display: grid;
+    grid-template-columns: 1fr 19%;
+    grid-template-rows: 217px 1fr 0 150px;
+  }
+}
 .l-main .p-main-visual {
   background-image: url(/img/main-visual1.png);
   position: relative;
