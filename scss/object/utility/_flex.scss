@@ -3,8 +3,9 @@
 //header
 .flex-container__header {
   @include mix.mq(pc) {
+    height: 100%;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
     align-content: center;
   }

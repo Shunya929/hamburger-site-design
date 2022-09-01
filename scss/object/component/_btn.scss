@@ -26,9 +26,15 @@
     font-weight: bold;
     font-size: 20px;
     line-height: 1.3;
-    @include mix.mq(tab) {
+  }
+  @include mix.mq(tab) {
+    .c-txt--changeable {
       font-size: 34px;
       line-height: 1.3;
+    }
+    @include mix.mq(pc) {
+      top: 85px;
+      right: -57%;
     }
   }
 }

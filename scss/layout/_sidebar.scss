@@ -16,10 +16,14 @@
   @include mix.mq(tab) {
     width: 45%;
     @include mix.mq(pc) {
-      overflow: initial;
-      height: calc(100% - 217px);
-      width: 19%;
-      transform:translateX(-100%);
+      width: 100%;
+      position: static;
+      overflow: hidden;
+      height: calc(100% - 150px);
+      transition: initial;
+      .wrapper__sidebar {
+        overflow: visible;
+      }
     }
   }
 }
