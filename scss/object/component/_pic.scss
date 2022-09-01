@@ -5,11 +5,11 @@
     background-image: url(/img/main-visual1.png);
     @include mix.pic(285px);
   }
-  .container--first {
+  .l-container--first {
     background-image: url(/img/main-visual2.png);
     @include mix.pic(642px);
   }
-  .container--second {
+  .l-container--second {
     background-image: url(/img/main-visual3.png);
     @include mix.pic(643px);
   }

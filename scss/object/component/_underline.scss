@@ -15,9 +15,9 @@
   margin-top: 10px;
   margin-bottom: 10px;
   @include mix.mq(tab) {
-    top: 100px;
-    @include mix.mq(tab) {
-      top: 130px;
+    top: 110px;
+    @include mix.mq(pc) {
+      top: 120px;
     }
   }
 }

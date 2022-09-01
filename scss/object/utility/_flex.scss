@@ -1,7 +1,7 @@
 @use '../../foundation/mixin' as mix;
 
 //header
-.flex-container__header {
+.l-flex-container__header {
   @include mix.mq(pc) {
     height: 100%;
     display: flex;

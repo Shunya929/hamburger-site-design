@@ -4,7 +4,7 @@
   display: flex;
   flex-direction: column;
   padding: 20px 20px 40px 20px;
-  .container--first {
+  .l-container--first {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -12,7 +12,7 @@
     min-height: 642px;
     margin-bottom: 20px;
   }
-  .container--second {
+  .l-container--second {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -25,21 +25,21 @@
     align-items: center;
     padding: 40px;
     gap: 40px;
-    .container--first {
+    .l-container--first {
       min-height: 1193px;
       width: 50%;
       margin: 0;
       padding: 0;
     }
-    .container--second {
+    .l-container--second {
       min-height: 1196px;
       width: 50%;
       margin: 0;
       padding: 0;
     }
     @include mix.mq(pc) {
-      padding: 120px 112px 132px 111px;
-      gap: 80px;
+      padding: 90px 82px 92px 81px;
+      gap: 60px;
     }
   }
 }
