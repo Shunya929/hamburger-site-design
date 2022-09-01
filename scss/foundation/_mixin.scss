@@ -30,8 +30,8 @@ $breakpoint: (
 
 @mixin txt($size,$color) {
   text-align: left;
-  color: #fff;
-  font-size: 36px;
+  color: $color;
+  font-size: $size;
   line-height: 1.5;
   font-weight: bold;
 }

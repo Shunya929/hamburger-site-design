@@ -1,6 +1,8 @@
 @use '../../foundation/mixin' as mix;
 
 .c-itemcard__menunav__archive {
+  position: relative;
   background-color: #3C2B1C;
   width: 50%;
+  padding: 53px 67px auto 41px;
 }

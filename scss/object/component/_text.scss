@@ -168,11 +168,36 @@
   color: #FFFFFF;
 }
 
-.c-txt-small-headline__menunav__archive {
+.c-txt-headline__menunav__archive {
   text-align-last: left;
   font-size: 23px;
+  margin-bottom: 20px;
 }
 
 .c-txt-explanation__menunav__archive {
   font-size: 10px;
+  text-align: left
+}
+
+.c-txt-itemname__menunav__archive {
+  @include mix.txt(23px,white);
+  position: absolute;
+  top: 10%;
+  left: 7%
+}
+
+.c-txt-small-headline__menunav__archive {
+  @include mix.txt(16px,white);
+  position: absolute;
+  top: 25%;
+  left: 7%
+}
+
+.c-txt-item-explanation__menunav__archive {
+  @include mix.txt(10px,white);
+  font-weight: normal;
+  position: absolute;
+  top: 35%;
+  left: 7%;
+  width: 80%;
 }

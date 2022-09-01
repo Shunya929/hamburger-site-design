@@ -526,11 +526,14 @@ body.is-open {
 }
 
 .c-btn__main--archive {
+  position: absolute;
+  bottom: 10%;
+  left: 30%;
   color: #707070;
   background-color: #FFFFFF;
-  border-radius: 5px;
+  border-radius: 20px;
   height: 76px;
-  width: 100%;
+  width: 40%;
   white-space: nowrap;
 }
 
@@ -759,14 +762,51 @@ body.is-open {
   color: #FFFFFF;
 }
 
-.c-txt-small-headline__menunav__archive {
+.c-txt-headline__menunav__archive {
   -moz-text-align-last: left;
        text-align-last: left;
   font-size: 23px;
+  margin-bottom: 20px;
 }
 
 .c-txt-explanation__menunav__archive {
   font-size: 10px;
+  text-align: left;
+}
+
+.c-txt-itemname__menunav__archive {
+  text-align: left;
+  color: white;
+  font-size: 23px;
+  line-height: 1.5;
+  font-weight: bold;
+  position: absolute;
+  top: 10%;
+  left: 7%;
+}
+
+.c-txt-small-headline__menunav__archive {
+  text-align: left;
+  color: white;
+  font-size: 16px;
+  line-height: 1.5;
+  font-weight: bold;
+  position: absolute;
+  top: 25%;
+  left: 7%;
+}
+
+.c-txt-item-explanation__menunav__archive {
+  text-align: left;
+  color: white;
+  font-size: 10px;
+  line-height: 1.5;
+  font-weight: bold;
+  font-weight: normal;
+  position: absolute;
+  top: 35%;
+  left: 7%;
+  width: 80%;
 }
 
 .c-textbox .c-textbox--main {
@@ -828,9 +868,22 @@ body.is-open {
   width: 100%;
 }
 
+.c-item-menu__archive + .c-item-menu__archive {
+  margin-top: 20px;
+}
+
 .c-itemcard__menunav__archive {
+  position: relative;
   background-color: #3C2B1C;
   width: 50%;
+  padding: 53px 67px auto 41px;
+}
+
+.c-page__arcive {
+  height: 249px;
+}
+.c-page__arcive .c-img__main---archive {
+  padding-top: 150px;
 }
 
 .p-menubar__sidebar {

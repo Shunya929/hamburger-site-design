@@ -4,3 +4,7 @@
   display: flex;
   width: 100%;
 }
+
+.c-item-menu__archive + .c-item-menu__archive {
+  margin-top: 20px;
+}
