@@ -1,4 +1,6 @@
 @use '../../foundation/mixin' as mix;
 
 .c-item-menu__archive {
+  display: flex;
+  width: 100%;
 }

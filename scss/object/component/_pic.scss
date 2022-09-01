@@ -27,4 +27,5 @@
 .c-pic__menunav__archive {
   background-image: url(/img/archive2.svg);
   @include mix.pic(471px);
+  width: 50%;
 }

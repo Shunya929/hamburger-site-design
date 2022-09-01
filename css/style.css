@@ -464,6 +464,7 @@ body.is-open {
   background-position-y: bottom;
   background-size: cover;
   overflow-x: hidden;
+  width: 50%;
 }
 
 .c-btn__header {
@@ -522,6 +523,15 @@ body.is-open {
   .p-hamburger.is-open .c-txt--changeable {
     font-size: 100px;
   }
+}
+
+.c-btn__main--archive {
+  color: #707070;
+  background-color: #FFFFFF;
+  border-radius: 5px;
+  height: 76px;
+  width: 100%;
+  white-space: nowrap;
 }
 
 .c-underline--first {
@@ -811,6 +821,16 @@ body.is-open {
 .label2 {
   display: inline-block;
   width: 80px;
+}
+
+.c-item-menu__archive {
+  display: flex;
+  width: 100%;
+}
+
+.c-itemcard__menunav__archive {
+  background-color: #3C2B1C;
+  width: 50%;
 }
 
 .p-menubar__sidebar {
