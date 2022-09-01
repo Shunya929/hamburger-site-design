@@ -402,6 +402,17 @@ body.is-open {
   background-size: cover;
   overflow-x: hidden;
 }
+@media screen and (min-width: 1281px) {
+  .l-main .p-main-visual {
+    position: relative;
+    height: 530px;
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-position-y: bottom;
+    background-size: cover;
+    overflow-x: hidden;
+  }
+}
 .l-main .l-container--first {
   background-image: url(/img/main-visual2.png);
   position: relative;

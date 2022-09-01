@@ -4,6 +4,9 @@
   .p-main-visual {
     background-image: url(/img/main-visual1.png);
     @include mix.pic(285px);
+    @include mix.mq(pc) {
+      @include mix.pic(530px);
+    }
   }
   .l-container--first {
     background-image: url(/img/main-visual2.png);
