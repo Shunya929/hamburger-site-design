@@ -1,5 +1,6 @@
 @use '../../foundation/mixin' as mix;
 
+//--top-page--
 //header
 .c-txt-headline__header {
   font-size: 40px;
@@ -155,4 +156,23 @@
   font-weight: normal;
   line-height: 20px;
   padding-bottom: 30px;
+}
+
+//--archive-page--
+//header
+.c-txt-headline--mainvisual {
+  position: absolute;
+  left: 10%;
+  top: 40%;
+  font-size: 38px;
+  color: #FFFFFF;
+}
+
+.c-txt-small-headline__menunav__archive {
+  text-align-last: left;
+  font-size: 23px;
+}
+
+.c-txt-explanation__menunav__archive {
+  font-size: 10px;
 }

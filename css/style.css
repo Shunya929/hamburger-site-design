@@ -392,7 +392,11 @@ body.is-open {
     grid-row-end: 4;
   }
 }
-.l-main .p-main-visual {
+.l-container__menunav__archive {
+  height: 33.3333333333%;
+}
+
+.p-main-visual {
   background-image: url(/img/main-visual1.png);
   position: relative;
   height: 285px;
@@ -403,7 +407,7 @@ body.is-open {
   overflow-x: hidden;
 }
 @media screen and (min-width: 1281px) {
-  .l-main .p-main-visual {
+  .p-main-visual {
     position: relative;
     height: 530px;
     background-repeat: no-repeat;
@@ -413,7 +417,8 @@ body.is-open {
     overflow-x: hidden;
   }
 }
-.l-main .l-container--first {
+
+.l-container--first {
   background-image: url(/img/main-visual2.png);
   position: relative;
   height: 642px;
@@ -423,7 +428,8 @@ body.is-open {
   background-size: cover;
   overflow-x: hidden;
 }
-.l-main .l-container--second {
+
+.l-container--second {
   background-image: url(/img/main-visual3.png);
   position: relative;
   height: 643px;
@@ -433,10 +439,26 @@ body.is-open {
   background-size: cover;
   overflow-x: hidden;
 }
-.l-main .p-map__main {
+
+.p-map__main {
   background-image: url(/img/map.svg);
   position: relative;
   height: 691px;
+  background-repeat: no-repeat;
+  background-position-x: center;
+  background-position-y: bottom;
+  background-size: cover;
+  overflow-x: hidden;
+}
+
+.p-mainvisual--archive {
+  background-image: url(/img/archive\ 1.svg);
+}
+
+.c-pic__menunav__archive {
+  background-image: url(/img/archive2.svg);
+  position: relative;
+  height: 471px;
   background-repeat: no-repeat;
   background-position-x: center;
   background-position-y: bottom;
@@ -719,10 +741,33 @@ body.is-open {
   padding-bottom: 30px;
 }
 
+.c-txt-headline--mainvisual {
+  position: absolute;
+  left: 10%;
+  top: 40%;
+  font-size: 38px;
+  color: #FFFFFF;
+}
+
+.c-txt-small-headline__menunav__archive {
+  -moz-text-align-last: left;
+       text-align-last: left;
+  font-size: 23px;
+}
+
+.c-txt-explanation__menunav__archive {
+  font-size: 10px;
+}
+
 .c-textbox .c-textbox--main {
   width: 90%;
   margin: 0 auto;
   background-color: rgba(247, 247, 247, 0.5);
+}
+
+.c-textbox__menunav__archive {
+  padding: 23px 0 46px 0;
+  color: #3C2A10;
 }
 
 .form__header {
@@ -787,6 +832,16 @@ body.is-open {
   min-height: 285px;
 }
 
+.p-mainvisual--archive {
+  position: relative;
+  background-color: black;
+}
+@media screen and (min-width: 1281px) {
+  .p-mainvisual--archive {
+    min-height: 239px;
+  }
+}
+
 .p-menu-nav {
   display: flex;
   flex-direction: column;
@@ -833,6 +888,11 @@ body.is-open {
     padding: 90px 82px 92px 81px;
     gap: 60px;
   }
+}
+
+.p-menunav__archive {
+  width: 90%;
+  margin: 0 auto;
 }
 
 .p-map__main {
