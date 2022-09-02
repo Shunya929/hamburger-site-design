@@ -23,6 +23,7 @@ jQuery(function($){
     $(".js-background--sidebar").removeClass("is-open");
     $(".js-txt--changeable").text('Menu');
     $(".js-hamburger").removeClass("is-open");
+    $('.js-hamburger').off('click');
   });
 
   $(function() {
@@ -31,6 +32,7 @@ jQuery(function($){
       $('.js-hamburger').off('click');
     } else {
       $('.js-sidebar').css('height',s_sidebar +'px');
+      $('.js-hamburger').on('click');
     };
   });
 });

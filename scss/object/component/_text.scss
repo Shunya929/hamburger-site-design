@@ -159,42 +159,47 @@
 }
 
 //--archive-page--
-//header
+//main-visual
 .c-txt-headline--mainvisual {
   position: absolute;
   left: 10%;
   top: 40%;
-  font-size: 38px;
+  font-size: 39px;
   color: #FFFFFF;
 }
 
+//menunav
 .c-txt-headline__menunav__archive {
-  text-align-last: left;
-  font-size: 23px;
+  @include mix.txt(23px,#3C2A10);
   margin-bottom: 20px;
 }
 
 .c-txt-explanation__menunav__archive {
-  font-size: 10px;
-  text-align: left
+  @include mix.txt(10px,#3C2A10);
 }
 
 .c-txt-itemname__menunav__archive {
-  @include mix.txt(23px,white);
+  @include mix.txt(16px,#ffffff);
   position: absolute;
   top: 10%;
-  left: 7%
+  left: 7%;
+  @include mix.mq(pc) {
+    @include mix.txt(25px,#ffffff);
+  }
 }
 
 .c-txt-small-headline__menunav__archive {
-  @include mix.txt(16px,white);
+  @include mix.txt(12px,#ffffff);
   position: absolute;
   top: 25%;
-  left: 7%
+  left: 7%;
+  @include mix.mq(pc) {
+    @include mix.txt(18px,#ffffff);
+  }
 }
 
 .c-txt-item-explanation__menunav__archive {
-  @include mix.txt(10px,white);
+  @include mix.txt(12px,white);
   font-weight: normal;
   position: absolute;
   top: 35%;

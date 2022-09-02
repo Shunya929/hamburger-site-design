@@ -11,7 +11,6 @@
   transition: .3s;
   .l-wrapper__sidebar {
     position: relative;
-    overflow-x: hidden;
   }
   @include mix.mq(tab) {
     width: 45%;
