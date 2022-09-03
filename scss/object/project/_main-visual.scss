@@ -1,9 +1,11 @@
 @use '../../foundation/mixin' as mix;
 
+//top
 .p-main-visual {
   min-height: 285px;
 }
 
+//archive
 .p-mainvisual--archive {
   position: relative;
   background-color: black;
@@ -13,4 +15,9 @@
       min-height: 239px;
     }
   }
+}
+
+//single
+.p-mainvisual--single {
+  position: relative;
 }

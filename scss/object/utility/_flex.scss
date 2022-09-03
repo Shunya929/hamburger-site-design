@@ -1,5 +1,6 @@
 @use '../../foundation/mixin' as mix;
 
+//--top--
 //header
 .l-flex-container__header {
   @include mix.mq(pc) {
@@ -8,5 +9,22 @@
     justify-content: space-around;
     align-items: center;
     align-content: center;
+  }
+}
+
+//--single--
+//menunav
+.l-flex-container--single--first {
+  display: flex;
+  justify-content: space-between;
+}
+
+.l-flex-container--single--second {
+  display: flex;
+  .c-pic-menunav--single--medium {
+    order: 2;
+  }
+  .c-txt-long-description-itemcard--single {
+    order: 1;
   }
 }

@@ -32,6 +32,13 @@
   }
 }
 
+//archive
 .l-container__menunav__archive {
   height: calc(100% / 3);
+}
+
+//single
+.l-container-menunav--single {
+  position: relative;
+  min-height: 580px;
 }

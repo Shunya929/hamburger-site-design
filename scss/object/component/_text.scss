@@ -206,3 +206,65 @@
   left: 7%;
   width: 80%;
 }
+
+//--single--
+//main-visual
+.c-txt-big-headline--mainvisual--single {
+  @include mix.txt(40px,#ffffff);
+  position: absolute;
+  top: 45%;
+  left: 5%;
+}
+
+//menunav
+.c-txt-headline-h2--single {
+  @include mix.txt(24px,#3C2A10);
+  position: absolute;
+  top: 10%;
+}
+
+.c-txt-description-p--single {
+  @include mix.txt(11px,#3C2A10);
+  position: absolute;
+  top: 25%;
+}
+
+.c-txt-headline-h3--single {
+  @include mix.txt(19px,#3C2A10);
+  position: absolute;
+  top: 40%;
+}
+
+.c-txt-headline-h4--single {
+  @include mix.txt(13px,#3C2A10);
+  position: absolute;
+  top: 55%;
+}
+
+.c-txt-headline-h5--single {
+  @include mix.txt(13px,#3C2A10);
+  position: absolute;
+  top: 70%;
+}
+
+.c-txt-headline-h6--single {
+  @include mix.txt(13px,#3C2A10);
+  position: absolute;
+  top: 85%;
+}
+
+.c-txt-quote-description--single {
+  @include mix.txt(13px,#3C2A10);
+  font-weight: normal;
+}
+
+.c-txt-quote-source--single {
+  @include mix.txt(13px,#3C2A10);
+  font-weight: normal;
+}
+
+.c-txt-long-description-itemcard--single {
+  @include mix.txt(11px,#3C2A10);
+  width: 41%;
+  font-weight: normal;
+}

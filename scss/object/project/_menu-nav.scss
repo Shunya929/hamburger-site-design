@@ -1,5 +1,6 @@
 @use '../../foundation/mixin' as mix;
 
+//top
 .p-menu-nav {
   display: flex;
   flex-direction: column;
@@ -44,7 +45,14 @@
   }
 }
 
+//archive
 .p-menunav__archive {
+  width: 90%;
+  margin: 0 auto;
+}
+
+//single
+.p-menunav--single {
   width: 90%;
   margin: 0 auto;
 }

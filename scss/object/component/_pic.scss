@@ -39,3 +39,25 @@
     }
   }
 }
+
+.p-mainvisual--single {
+  background-image: url(/img/single1.svg);
+  @include mix.pic(500px);
+}
+
+.c-pic-menunav--single {
+  background-image: url(/img/single2.svg);
+  &--large {
+    @include mix.pic(500px);
+    margin-top: 60px;
+    margin-bottom: 60px;
+  }
+  &--medium {
+    @include mix.pic(358px);
+    width: 43%
+  }
+  &--small {
+    @include mix.pic(257px);
+    width: calc(100% / 3 - 14px);
+  }
+}

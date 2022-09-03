@@ -1,5 +1,6 @@
 @use '../../foundation/mixin' as mix;
 
+//archive
 .c-itemcard__menunav__archive {
   position: relative;
   background-color: #3C2B1C;
@@ -9,4 +10,16 @@
     height: initial;
     width: 50%;
   }
+}
+
+//single
+.c-itemcard--medium--single {
+  padding-bottom: 60px;
+}
+
+.c-itemcard--small--single {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  padding-bottom: 60px;
 }
