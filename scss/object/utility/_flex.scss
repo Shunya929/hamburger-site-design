@@ -21,6 +21,7 @@
 
 .l-flex-container--single--second {
   display: flex;
+  justify-content: space-between;
   .c-pic-menunav--single--medium {
     order: 2;
   }

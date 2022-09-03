@@ -959,6 +959,7 @@ body.is-open {
   font-weight: bold;
   position: absolute;
   top: 25%;
+  font-weight: normal;
 }
 
 .c-txt-headline-h3--single {
@@ -1321,6 +1322,7 @@ body.is-open {
 
 .l-flex-container--single--second {
   display: flex;
+  justify-content: space-between;
 }
 .l-flex-container--single--second .c-pic-menunav--single--medium {
   order: 2;
