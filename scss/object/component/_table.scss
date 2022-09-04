@@ -1,0 +1,10 @@
+@use '../../foundation/mixin' as mix;
+
+.c-table--single {
+  background-color: #ffffff;
+  width: 100%;
+  margin-bottom: 20px;
+  td {
+    width: 31%;
+  }
+}

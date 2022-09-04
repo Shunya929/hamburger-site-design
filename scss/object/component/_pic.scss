@@ -56,6 +56,9 @@
     @include mix.pic(358px);
     width: 43%
   }
+  &--medium--third {
+    margin: 0 auto;
+  }
   &--small {
     @include mix.pic(257px);
     width: calc(100% / 3 - 14px);

@@ -19,6 +19,14 @@ a {
   text-decoration: none;
 }
 
+ol {
+  counter-reset: count;
+  li:before {
+    counter-increment: count;
+    content: counter(count)'.';
+  }
+}
+
 li {
   list-style: none;
 }

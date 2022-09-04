@@ -17,11 +17,13 @@
 .l-flex-container--single--first {
   display: flex;
   justify-content: space-between;
+  padding-bottom: 60px;
 }
 
 .l-flex-container--single--second {
   display: flex;
   justify-content: space-between;
+  padding-bottom: 60px;
   .c-pic-menunav--single--medium {
     order: 2;
   }

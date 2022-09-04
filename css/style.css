@@ -295,6 +295,14 @@ a {
   text-decoration: none;
 }
 
+ol {
+  counter-reset: count;
+}
+ol li:before {
+  counter-increment: count;
+  content: counter(count) ".";
+}
+
 li {
   list-style: none;
 }
@@ -398,6 +406,11 @@ body.is-open {
 .l-container-menunav--single {
   position: relative;
   min-height: 580px;
+}
+
+.l-container-menulist--menunav--single {
+  padding-left: 35px;
+  padding-bottom: 60px;
 }
 
 .p-main-visual {
@@ -545,6 +558,9 @@ body.is-open {
   background-size: cover;
   overflow-x: hidden;
   width: 43%;
+}
+.c-pic-menunav--single--medium--third {
+  margin: 0 auto;
 }
 .c-pic-menunav--single--small {
   position: relative;
@@ -1026,7 +1042,7 @@ body.is-open {
   font-size: 11px;
   line-height: 1.5;
   font-weight: bold;
-  width: 41%;
+  width: 54%;
   font-weight: normal;
 }
 
@@ -1162,6 +1178,51 @@ body.is-open {
 }
 .c-blockquote--single .c-cite--single {
   padding-left: 15px;
+}
+
+.c-ordered-list--single {
+  text-align: left;
+}
+.c-ordered-list--single:nth-child(2) {
+  padding-left: 18px;
+}
+
+.c-ordered-list--single + .c-ordered-list--single {
+  margin-top: 20px;
+}
+
+.c-ordered-list--single + .c-unordered-list--single {
+  margin-top: 20px;
+}
+
+.c-unordered-list--single {
+  text-align: left;
+}
+.c-unordered-list--single:nth-child(2) {
+  padding-left: 18px;
+}
+.c-unordered-list--single + .c-unordered-list--single {
+  margin-top: 20px;
+}
+
+.c-table--single {
+  background-color: #ffffff;
+  width: 100%;
+  margin-bottom: 20px;
+}
+.c-table--single td {
+  width: 31%;
+}
+
+.c-code--single {
+  min-height: 237px;
+  background-color: #F5F5F5;
+  text-align: left;
+  padding-left: 33px;
+  margin-bottom: 50px;
+}
+.c-code--single .c-txt-code--single--right {
+  padding-left: 26px;
 }
 
 .p-menubar__sidebar {
@@ -1318,11 +1379,13 @@ body.is-open {
 .l-flex-container--single--first {
   display: flex;
   justify-content: space-between;
+  padding-bottom: 60px;
 }
 
 .l-flex-container--single--second {
   display: flex;
   justify-content: space-between;
+  padding-bottom: 60px;
 }
 .l-flex-container--single--second .c-pic-menunav--single--medium {
   order: 2;

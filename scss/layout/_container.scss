@@ -32,13 +32,18 @@
   }
 }
 
-//archive
+//--archive--
 .l-container__menunav__archive {
   height: calc(100% / 3);
 }
 
-//single
+//--single--
 .l-container-menunav--single {
   position: relative;
   min-height: 580px;
+}
+
+.l-container-menulist--menunav--single {
+  padding-left: 35px;
+  padding-bottom: 60px;
 }
