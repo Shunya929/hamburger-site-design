@@ -74,14 +74,17 @@
 
 //map
 .c-txt-headline__map {
-  position: absolute;
+  // min-height: 356px;
+  // position: absolute;
+  position: relative;
+  display: block;
   color: #FFFFFF;
   font-size: 22px;
   line-height: 2.5;
   font-weight: bold;
   text-align: left;
-  top: 0;
-  left: 10%;
+  // top: 0;
+  // left: 10%;
   width: 80%;
   margin: 0 auto;
   margin-top: 40px;
@@ -94,18 +97,24 @@
   }
 }
 .c-txt-long__map {
-  position: absolute;
+  min-height: 356px;
+  display: block;
+  // position: absolute;
+  position: relative;
+  // padding-left: 30px;  //change
+  // padding-top: 150px; //change
   color: #FFFFFF;
   font-size: 14px;
   font-weight: normal;
   line-height: 33px;
   width: 80%;
   text-align: left;
-  left: 50%;
-  transform: translateX(-50%);
+  // left: 50%;
+  // transform: translateX(-50%);
   z-index: 20;
-  top: 120px;
-  padding-bottom: 40px;
+
+  // top: 120px;
+  // padding-bottom: 40px;
   @include mix.mq(tab) {
     top: 150px;
     @include mix.mq(pc) {
@@ -170,6 +179,10 @@
   }
 }
 
+.c-txt-search-result--archive {
+  @include mix.txt(23px,#3C2A10);
+}
+
 //menunav
 .c-txt-headline__menunav__archive {
   @include mix.txt(23px,#3C2A10);
@@ -224,6 +237,8 @@
     }
   }
 }
+
+
 
 //menunav
 .c-txt-headline-h2--single {

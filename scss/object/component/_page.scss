@@ -4,8 +4,10 @@
   .c-img__main---archive--first {
     display: none;
     padding-top: 100px;
+    margin: 0 auto;
   }
   .c-img__main---archive--second {
+    width: 90%;
     padding-top: 100px;
   }
   @include mix.mq(tab) {

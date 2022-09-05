@@ -891,14 +891,13 @@ body.is-open {
 }
 
 .c-txt-headline__map {
-  position: absolute;
+  position: relative;
+  display: block;
   color: #FFFFFF;
   font-size: 22px;
   line-height: 2.5;
   font-weight: bold;
   text-align: left;
-  top: 0;
-  left: 10%;
   width: 80%;
   margin: 0 auto;
   margin-top: 40px;
@@ -916,18 +915,16 @@ body.is-open {
 }
 
 .c-txt-long__map {
-  position: absolute;
+  min-height: 356px;
+  display: block;
+  position: relative;
   color: #FFFFFF;
   font-size: 14px;
   font-weight: normal;
   line-height: 33px;
   width: 80%;
   text-align: left;
-  left: 50%;
-  transform: translateX(-50%);
   z-index: 20;
-  top: 120px;
-  padding-bottom: 40px;
 }
 @media screen and (min-width: 768px) {
   .c-txt-long__map {
@@ -1004,6 +1001,14 @@ body.is-open {
     line-height: 1.5;
     font-weight: bold;
   }
+}
+
+.c-txt-search-result--archive {
+  text-align: left;
+  color: #3C2A10;
+  font-size: 23px;
+  line-height: 1.5;
+  font-weight: bold;
 }
 
 .c-txt-headline__menunav__archive {
@@ -1319,8 +1324,10 @@ body.is-open {
 .c-page__arcive .c-img__main---archive--first {
   display: none;
   padding-top: 100px;
+  margin: 0 auto;
 }
 .c-page__arcive .c-img__main---archive--second {
+  width: 90%;
   padding-top: 100px;
 }
 @media screen and (min-width: 768px) {
@@ -1502,28 +1509,31 @@ body.is-open {
 
 .p-map__main {
   overflow: visible;
-  position: relative;
   min-height: 691px;
+  height: auto;
+  width: 100%;
   background-color: black;
-  overflow-y: hidden;
 }
 .p-map__main .l-container--map {
   overflow: visible;
-  position: relative;
+  height: 100%;
+  width: 100%;
 }
 .p-map__main .l-container--map .c-colorbox {
-  height: 415px;
+  top: 0;
+  position: absolute;
   background-color: rgba(0, 0, 0, 0.3);
   z-index: 10;
+  width: 100%;
+  height: 450px;
 }
 @media screen and (min-width: 768px) {
-  .p-map__main {
-    min-height: 415px;
+  .p-map__main .l-container--map .c-colorbox {
+    height: 100%;
   }
 }
 @media screen and (min-width: 768px) and (min-width: 1281px) {
-  .p-map__main .c-colorbox {
-    min-height: 691px;
+  .p-map__main .l-container--map .c-colorbox {
     width: 61%;
   }
 }
