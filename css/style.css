@@ -527,12 +527,23 @@ body.is-open {
 .p-mainvisual--single {
   background-image: url(/img/single1.svg);
   position: relative;
-  height: 500px;
+  height: 225px;
   background-repeat: no-repeat;
   background-position-x: center;
   background-position-y: bottom;
   background-size: cover;
   overflow-x: hidden;
+}
+@media screen and (min-width: 768px) {
+  .p-mainvisual--single {
+    position: relative;
+    height: 500px;
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-position-y: bottom;
+    background-size: cover;
+    overflow-x: hidden;
+  }
 }
 
 .c-pic-menunav--single {
@@ -540,7 +551,7 @@ body.is-open {
 }
 .c-pic-menunav--single--large {
   position: relative;
-  height: 500px;
+  height: 264px;
   background-repeat: no-repeat;
   background-position-x: center;
   background-position-y: bottom;
@@ -549,9 +560,20 @@ body.is-open {
   margin-top: 60px;
   margin-bottom: 60px;
 }
+@media screen and (min-width: 768px) {
+  .c-pic-menunav--single--large {
+    position: relative;
+    height: 500px;
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-position-y: bottom;
+    background-size: cover;
+    overflow-x: hidden;
+  }
+}
 .c-pic-menunav--single--medium {
   position: relative;
-  height: 358px;
+  height: 89px;
   background-repeat: no-repeat;
   background-position-x: center;
   background-position-y: bottom;
@@ -559,18 +581,86 @@ body.is-open {
   overflow-x: hidden;
   width: 43%;
 }
-.c-pic-menunav--single--medium--third {
-  margin: 0 auto;
+@media screen and (min-width: 768px) {
+  .c-pic-menunav--single--medium {
+    position: relative;
+    height: 358px;
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-position-y: bottom;
+    background-size: cover;
+    overflow-x: hidden;
+  }
 }
-.c-pic-menunav--single--small {
+.c-pic-menunav--single--medium--third {
   position: relative;
-  height: 257px;
+  height: 166px;
   background-repeat: no-repeat;
   background-position-x: center;
   background-position-y: bottom;
   background-size: cover;
   overflow-x: hidden;
-  width: calc(33.3333333333% - 14px);
+  margin: 0 auto;
+}
+@media screen and (min-width: 768px) {
+  .c-pic-menunav--single--medium--third {
+    position: relative;
+    height: 358px;
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-position-y: bottom;
+    background-size: cover;
+    overflow-x: hidden;
+  }
+}
+.c-pic-menunav--single--small {
+  position: relative;
+  height: 205px;
+  background-repeat: no-repeat;
+  background-position-x: center;
+  background-position-y: bottom;
+  background-size: cover;
+  overflow-x: hidden;
+  width: 100%;
+}
+@media screen and (min-width: 768px) {
+  .c-pic-menunav--single--small {
+    position: relative;
+    height: 257px;
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-position-y: bottom;
+    background-size: cover;
+    overflow-x: hidden;
+    width: calc(50% - 10px);
+  }
+}
+@media screen and (min-width: 768px) and (min-width: 1281px) {
+  .c-pic-menunav--single--small {
+    width: calc(33.3333333333% - 14px);
+  }
+}
+
+.p-mainvisual--page {
+  background-image: url(/img/page1.svg);
+  position: relative;
+  height: 225px;
+  background-repeat: no-repeat;
+  background-position-x: center;
+  background-position-y: bottom;
+  background-size: cover;
+  overflow-x: hidden;
+}
+@media screen and (min-width: 768px) {
+  .p-mainvisual--page {
+    position: relative;
+    height: 500px;
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-position-y: bottom;
+    background-size: cover;
+    overflow-x: hidden;
+  }
 }
 
 .c-btn__header {
@@ -651,6 +741,32 @@ body.is-open {
   }
 }
 
+.c-form__main--single {
+  text-align: left;
+  padding: 50px 0;
+}
+
+.c-btn__main---single {
+  color: #707070;
+  background-color: #F2EDE9;
+  border: solid 1px #707070;
+  border-radius: 20px;
+  height: 81px;
+  width: 100%;
+  white-space: nowrap;
+}
+@media screen and (min-width: 768px) {
+  .c-btn__main---single {
+    height: 104px;
+    width: 60%;
+  }
+}
+@media screen and (min-width: 768px) and (min-width: 1281px) {
+  .c-btn__main---single {
+    width: 31%;
+  }
+}
+
 .c-underline--first {
   border-bottom: solid 4px #FFFFFF;
   width: 45px;
@@ -706,7 +822,7 @@ body.is-open {
   line-height: 1.5;
   font-weight: bold;
   position: absolute;
-  top: 110px;
+  top: 40%;
   left: 11%;
 }
 @media screen and (min-width: 768px) {
@@ -717,7 +833,7 @@ body.is-open {
 @media screen and (min-width: 768px) and (min-width: 1281px) {
   .c-txt-headline__mainvisual {
     display: block;
-    font-size: 40px;
+    font-size: 35px;
   }
 }
 
@@ -869,11 +985,23 @@ body.is-open {
 }
 
 .c-txt-headline--mainvisual {
+  text-align: left;
+  color: #ffffff;
+  font-size: 25px;
+  line-height: 1.5;
+  font-weight: bold;
   position: absolute;
   left: 10%;
   top: 40%;
-  font-size: 39px;
-  color: #FFFFFF;
+}
+@media screen and (min-width: 768px) {
+  .c-txt-headline--mainvisual {
+    text-align: left;
+    color: #ffffff;
+    font-size: 39px;
+    line-height: 1.5;
+    font-weight: bold;
+  }
 }
 
 .c-txt-headline__menunav__archive {
@@ -949,12 +1077,27 @@ body.is-open {
 .c-txt-big-headline--mainvisual--single {
   text-align: left;
   color: #ffffff;
-  font-size: 40px;
+  font-size: 25px;
   line-height: 1.5;
   font-weight: bold;
   position: absolute;
   top: 45%;
-  left: 5%;
+  left: 30%;
+}
+@media screen and (min-width: 768px) {
+  .c-txt-big-headline--mainvisual--single {
+    text-align: left;
+    color: #ffffff;
+    font-size: 40px;
+    line-height: 1.5;
+    font-weight: bold;
+    left: 15%;
+  }
+}
+@media screen and (min-width: 768px) and (min-width: 1281px) {
+  .c-txt-big-headline--mainvisual--single {
+    left: 5%;
+  }
 }
 
 .c-txt-headline-h2--single {
@@ -1044,6 +1187,43 @@ body.is-open {
   font-weight: bold;
   width: 54%;
   font-weight: normal;
+}
+
+.c-txt-table-head--single {
+  text-align: left;
+  color: #3C2A10;
+  font-size: 12px;
+  line-height: 1.5;
+  font-weight: bold;
+  font-weight: normal;
+}
+
+.c-txt-table-data--single {
+  text-align: left;
+  color: #3C2A10;
+  font-size: 12px;
+  line-height: 1.5;
+  font-weight: bold;
+  font-weight: normal;
+}
+
+.c-txt-bold--single {
+  text-align: left;
+  color: #3C2A10;
+  font-size: 11px;
+  line-height: 1.5;
+  font-weight: bold;
+  padding-bottom: 177px;
+}
+@media screen and (min-width: 768px) {
+  .c-txt-bold--single {
+    padding-bottom: 228px;
+  }
+}
+@media screen and (min-width: 768px) and (min-width: 1281px) {
+  .c-txt-bold--single {
+    padding-bottom: 333px;
+  }
 }
 
 .c-textbox .c-textbox--main {
@@ -1198,20 +1378,29 @@ body.is-open {
 .c-unordered-list--single {
   text-align: left;
 }
-.c-unordered-list--single:nth-child(2) {
+.c-unordered-list--single--second {
   padding-left: 18px;
 }
+
 .c-unordered-list--single + .c-unordered-list--single {
   margin-top: 20px;
 }
 
 .c-table--single {
   background-color: #ffffff;
+  min-height: 308px;
   width: 100%;
-  margin-bottom: 20px;
+  border-collapse: collapse;
 }
-.c-table--single td {
+.c-table--single .c-txt-table-head--single {
   width: 31%;
+  border: solid 1px black;
+  padding-left: 20px;
+}
+.c-table--single .c-txt-table-data--single {
+  width: 69%;
+  border: solid 1px black;
+  padding-left: 20px;
 }
 
 .c-code--single {

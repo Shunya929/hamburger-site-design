@@ -1,5 +1,6 @@
 @use '../../foundation/mixin' as mix;
 
+//--top--
 .p-main-visual {
   background-image: url(/img/main-visual1.png);
   @include mix.pic(285px);
@@ -20,6 +21,7 @@
   @include mix.pic(691px);
 }
 
+//--archive--
 .p-mainvisual--archive {
   background-image: url(/img/archive\ 1.svg);
   @include mix.pic(283px); 
@@ -40,27 +42,57 @@
   }
 }
 
+//--single--
 .p-mainvisual--single {
   background-image: url(/img/single1.svg);
-  @include mix.pic(500px);
+  @include mix.pic(225px);
+  @include mix.mq(tab) {
+    @include mix.pic(500px);
+  }
 }
 
 .c-pic-menunav--single {
   background-image: url(/img/single2.svg);
   &--large {
-    @include mix.pic(500px);
+    @include mix.pic(264px);
     margin-top: 60px;
     margin-bottom: 60px;
+    @include mix.mq(tab) {
+      @include mix.pic(500px);
+    }
   }
   &--medium {
-    @include mix.pic(358px);
-    width: 43%
+    @include mix.pic(89px);
+    width: 43%;
+    @include mix.mq(tab) {
+      @include mix.pic(358px);
+    }
   }
   &--medium--third {
+    @include mix.pic(166px);
     margin: 0 auto;
+    @include mix.mq(tab) {
+      @include mix.pic(358px);
+    }
   }
   &--small {
-    @include mix.pic(257px);
-    width: calc(100% / 3 - 14px);
+    @include mix.pic(205px);
+    width: 100%;
+    @include mix.mq(tab) {
+      @include mix.pic(257px);
+      width: calc(100% / 2 - 10px);
+      @include mix.mq(pc) {
+        width: calc(100% / 3 - 14px);
+      }
+    }
+  }
+}
+
+//--page--
+.p-mainvisual--page {
+  background-image: url(/img/page1.svg);
+  @include mix.pic(225px);
+  @include mix.mq(tab) {
+    @include mix.pic(500px);
   }
 }

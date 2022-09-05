@@ -19,13 +19,13 @@
 .c-txt-headline__mainvisual {
   @include mix.text;
   position: absolute;
-  top: 110px;
+  top: 40%;
   left: 11%;
   @include mix.mq(tab) {
     display: none;
     @include mix.mq(pc) {
       display: block;
-      font-size: 40px;
+      font-size: 35px;
     }
   }
 }
@@ -161,11 +161,13 @@
 //--archive-page--
 //main-visual
 .c-txt-headline--mainvisual {
+  @include mix.txt(25px,#ffffff);
   position: absolute;
   left: 10%;
   top: 40%;
-  font-size: 39px;
-  color: #FFFFFF;
+  @include mix.mq(tab) {
+    @include mix.txt(39px,#ffffff);
+  }
 }
 
 //menunav
@@ -210,10 +212,17 @@
 //--single--
 //main-visual
 .c-txt-big-headline--mainvisual--single {
-  @include mix.txt(40px,#ffffff);
+  @include mix.txt(25px,#ffffff);
   position: absolute;
   top: 45%;
-  left: 5%;
+  left: 30%;
+  @include mix.mq(tab) {
+    @include mix.txt(40px,#ffffff);
+    left: 15%;
+    @include mix.mq(pc) {
+      left: 5%;
+    }
+  }
 }
 
 //menunav
@@ -268,4 +277,26 @@
   @include mix.txt(11px,#3C2A10);
   width: 54%;
   font-weight: normal;
+}
+
+
+.c-txt-table-head--single {
+  @include mix.txt(12px,#3C2A10);
+  font-weight: normal;
+}
+
+.c-txt-table-data--single {
+  @include mix.txt(12px,#3C2A10);
+  font-weight: normal;
+}
+
+.c-txt-bold--single {
+  @include mix.txt(11px,#3C2A10);
+  padding-bottom: 177px;
+  @include mix.mq(tab) {
+    padding-bottom: 228px;
+    @include mix.mq(pc) {
+      padding-bottom: 333px;
+    }
+  }
 }
