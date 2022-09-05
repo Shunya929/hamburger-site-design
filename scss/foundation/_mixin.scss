@@ -40,3 +40,11 @@ $breakpoint: (
   border-bottom: solid $weight #FFFFFF;
   width: $width;
 }
+
+@mixin btn($radius,$width) {
+  position: absolute;
+  color: #707070;
+  background-color: #FFFFFF;
+  border-radius: $radius;
+  white-space: nowrap;
+}

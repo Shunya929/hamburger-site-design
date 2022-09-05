@@ -1128,7 +1128,7 @@ body.is-open {
   line-height: 1.5;
   font-weight: bold;
   position: absolute;
-  top: 40%;
+  top: 50%;
 }
 
 .c-txt-headline-h4--single {
@@ -1138,7 +1138,7 @@ body.is-open {
   line-height: 1.5;
   font-weight: bold;
   position: absolute;
-  top: 55%;
+  top: 65%;
 }
 
 .c-txt-headline-h5--single {
@@ -1148,7 +1148,7 @@ body.is-open {
   line-height: 1.5;
   font-weight: bold;
   position: absolute;
-  top: 70%;
+  top: 80%;
 }
 
 .c-txt-headline-h6--single {
@@ -1158,7 +1158,7 @@ body.is-open {
   line-height: 1.5;
   font-weight: bold;
   position: absolute;
-  top: 85%;
+  top: 95%;
 }
 
 .c-txt-quote-description--single {
