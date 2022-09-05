@@ -17,11 +17,8 @@
 
 .c-unordered-list--single {
   text-align: left;
-  // &:nth-child(2) {
-  //  padding-left: 18px;
-  // }
-  &--second {
-    padding-left: 18px;
+  &:nth-child(5) {
+   padding-left: 18px;
   }
 }
 

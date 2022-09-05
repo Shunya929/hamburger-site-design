@@ -1378,7 +1378,7 @@ body.is-open {
 .c-unordered-list--single {
   text-align: left;
 }
-.c-unordered-list--single--second {
+.c-unordered-list--single:nth-child(5) {
   padding-left: 18px;
 }
 
