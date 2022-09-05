@@ -39,7 +39,9 @@
 
 //--single--
 .l-container-menunav--single {
-  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
   min-height: 580px;
 }
 

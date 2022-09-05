@@ -228,39 +228,27 @@
 //menunav
 .c-txt-headline-h2--single {
   @include mix.txt(24px,#3C2A10);
-  position: absolute;
-  top: 10%;
 }
 
 .c-txt-description-p--single {
   @include mix.txt(11px,#3C2A10);
-  position: absolute;
-  top: 25%;
   font-weight: normal;
 }
 
 .c-txt-headline-h3--single {
   @include mix.txt(19px,#3C2A10);
-  position: absolute;
-  top: 50%;
 }
 
 .c-txt-headline-h4--single {
   @include mix.txt(13px,#3C2A10);
-  position: absolute;
-  top: 65%;
 }
 
 .c-txt-headline-h5--single {
   @include mix.txt(13px,#3C2A10);
-  position: absolute;
-  top: 80%;
 }
 
 .c-txt-headline-h6--single {
   @include mix.txt(13px,#3C2A10);
-  position: absolute;
-  top: 95%;
 }
 
 .c-txt-quote-description--single {

@@ -404,7 +404,9 @@ body.is-open {
 }
 
 .l-container-menunav--single {
-  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
   min-height: 580px;
 }
 
@@ -1106,8 +1108,6 @@ body.is-open {
   font-size: 24px;
   line-height: 1.5;
   font-weight: bold;
-  position: absolute;
-  top: 10%;
 }
 
 .c-txt-description-p--single {
@@ -1116,8 +1116,6 @@ body.is-open {
   font-size: 11px;
   line-height: 1.5;
   font-weight: bold;
-  position: absolute;
-  top: 25%;
   font-weight: normal;
 }
 
@@ -1127,8 +1125,6 @@ body.is-open {
   font-size: 19px;
   line-height: 1.5;
   font-weight: bold;
-  position: absolute;
-  top: 50%;
 }
 
 .c-txt-headline-h4--single {
@@ -1137,8 +1133,6 @@ body.is-open {
   font-size: 13px;
   line-height: 1.5;
   font-weight: bold;
-  position: absolute;
-  top: 65%;
 }
 
 .c-txt-headline-h5--single {
@@ -1147,8 +1141,6 @@ body.is-open {
   font-size: 13px;
   line-height: 1.5;
   font-weight: bold;
-  position: absolute;
-  top: 80%;
 }
 
 .c-txt-headline-h6--single {
@@ -1157,8 +1149,6 @@ body.is-open {
   font-size: 13px;
   line-height: 1.5;
   font-weight: bold;
-  position: absolute;
-  top: 95%;
 }
 
 .c-txt-quote-description--single {
