@@ -26,15 +26,22 @@
     width: 100%;
     padding-left: 40px;
     
-  }
-  @include mix.mq(pc) {
-    margin: initial;
+  }@include mix.mq(tab) {
+    width: 100%;
+    @include mix.mq(pc) {
+      width: initial;
+      margin: initial;
+    }
   }
 }
 
 .label1 {
   display: inline-block;
-  max-width: 550px;
+  max-width: 400px;
+  width: 65%;
+  @include mix.mq(tab) {
+    width: 100%;
+  }
 }
 
 .label2 {

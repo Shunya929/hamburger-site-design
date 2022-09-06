@@ -22,23 +22,17 @@
 }
 
 //--archive--
-// .p-mainvisual--archive {
-//   background-image: url(/img/archive\ 1.svg);
-//   @include mix.pic(283px); 
-//   @include mix.mq(pc) {
-//     @include mix.pic(239px);
-//   }
-// }
-
-.c-pic-mainvisual--archive {
-  display: block;
-  position: relative;
-  height: 283px;
-  overflow-x: hidden; 
+.p-mainvisual--archive {
+  background-image: url(/img/archive\ 1.svg);
+  @include mix.pic(283px); 
   @include mix.mq(pc) {
-    height: 239px;
+    @include mix.pic(239px);
+  }
+  &--search {
+    background-image: none;
   }
 }
+
 
 .c-pic__menunav__archive {
   background-image: url(/img/archive2.svg);
@@ -49,6 +43,18 @@
     @include mix.mq(pc) {
       @include mix.pic(471px);
     }
+  }
+}
+
+//search
+.c-pic-mainvisual--archive {
+  display: block;
+  position: relative;
+  height: 283px;
+  overflow-x: hidden; 
+  width: 100%;
+  @include mix.mq(pc) {
+    height: 239px;
   }
 }
 

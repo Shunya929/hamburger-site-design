@@ -479,16 +479,29 @@ body.is-open {
   overflow-x: hidden;
 }
 
-.c-pic-mainvisual--archive {
-  display: block;
+.p-mainvisual--archive {
+  background-image: url(/img/archive\ 1.svg);
   position: relative;
   height: 283px;
+  background-repeat: no-repeat;
+  background-position-x: center;
+  background-position-y: bottom;
+  background-size: cover;
   overflow-x: hidden;
 }
 @media screen and (min-width: 1281px) {
-  .c-pic-mainvisual--archive {
+  .p-mainvisual--archive {
+    position: relative;
     height: 239px;
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-position-y: bottom;
+    background-size: cover;
+    overflow-x: hidden;
   }
+}
+.p-mainvisual--archive--search {
+  background-image: none;
 }
 
 .c-pic__menunav__archive {
@@ -522,6 +535,19 @@ body.is-open {
     background-position-y: bottom;
     background-size: cover;
     overflow-x: hidden;
+  }
+}
+
+.c-pic-mainvisual--archive {
+  display: block;
+  position: relative;
+  height: 283px;
+  overflow-x: hidden;
+  width: 100%;
+}
+@media screen and (min-width: 1281px) {
+  .c-pic-mainvisual--archive {
+    height: 239px;
   }
 }
 
@@ -1264,15 +1290,27 @@ body.is-open {
   width: 100%;
   padding-left: 40px;
 }
-@media screen and (min-width: 1281px) {
+@media screen and (min-width: 768px) {
   .form__header {
+    width: 100%;
+  }
+}
+@media screen and (min-width: 768px) and (min-width: 1281px) {
+  .form__header {
+    width: initial;
     margin: initial;
   }
 }
 
 .label1 {
   display: inline-block;
-  max-width: 550px;
+  max-width: 400px;
+  width: 65%;
+}
+@media screen and (min-width: 768px) {
+  .label1 {
+    width: 100%;
+  }
 }
 
 .label2 {
@@ -1477,7 +1515,6 @@ body.is-open {
   .p-menu-nav {
     flex-direction: row;
     justify-content: center;
-    align-items: center;
     padding: 40px;
     gap: 40px;
   }
