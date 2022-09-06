@@ -10,6 +10,7 @@
 .c-underline--second {
   @include mix.underline(2px,55px);
   position: absolute;
+  z-index: 20;
   top: 90px;
   left: 10%;
   margin-top: 10px;

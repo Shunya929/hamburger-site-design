@@ -9,16 +9,18 @@
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    overflow-y: hidden;
+    gap: 60px;
     min-height: 642px;
+    height: auto;
     margin-bottom: 20px;
   }
   .l-container--second {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    overflow-y: hidden;
+    gap: 60px;
     min-height: 643px;
+    height: auto;
   }
   @include mix.mq(tab) {
     flex-direction: row;

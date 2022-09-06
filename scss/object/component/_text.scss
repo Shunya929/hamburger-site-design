@@ -38,6 +38,7 @@
   position: relative;
   left: 6%;
   top: 3%;
+  padding-top: 20px;
   .c-txt-headeline__menunav {
     @include mix.text;
     @include mix.mq(tab) {
@@ -63,10 +64,7 @@
 }
 
 .c-txt-description__textbox {
-  text-align: left;
-  color: #3C2A10;
-  font-size: 16px;
-  line-height: 1.4;
+  @include mix.txt(16px,#3C2A10);
   font-weight: normal;
   margin: 15px auto 15px 10px;
   padding-bottom: 10px;
@@ -74,20 +72,12 @@
 
 //map
 .c-txt-headline__map {
-  // min-height: 356px;
-  // position: absolute;
+  @include mix.txt(22px,#ffffff);
   position: relative;
-  display: block;
-  color: #FFFFFF;
-  font-size: 22px;
   line-height: 2.5;
-  font-weight: bold;
-  text-align: left;
-  // top: 0;
-  // left: 10%;
   width: 80%;
   margin: 0 auto;
-  margin-top: 40px;
+  padding-top: 40px;
   z-index: 20;
   @include mix.mq(tab) {
     font-size: 30px;
@@ -97,32 +87,17 @@
   }
 }
 .c-txt-long__map {
-  min-height: 356px;
-  display: block;
-  // position: absolute;
+  @include mix.txt(14px,#ffffff);
   position: relative;
-  // padding-left: 30px;  //change
-  // padding-top: 150px; //change
-  color: #FFFFFF;
-  font-size: 14px;
+  left: 10%;
+  padding-top: 30px;
   font-weight: normal;
-  line-height: 33px;
+  line-height: 2.5;
   width: 80%;
-  text-align: left;
-  // left: 50%;
-  // transform: translateX(-50%);
   z-index: 20;
-
-  // top: 120px;
-  // padding-bottom: 40px;
-  @include mix.mq(tab) {
-    top: 150px;
-    @include mix.mq(pc) {
-      font-size: 16px;
-      top: 180px;
-      left: 30%;
-      width: 40%;
-    }
+  @include mix.mq(pc) {
+    font-size: 16px;
+    width: 40%;
   }
 }
 
@@ -171,12 +146,14 @@
 //main-visual
 .c-txt-headline--mainvisual {
   @include mix.txt(25px,#ffffff);
-  position: absolute;
-  left: 10%;
-  top: 40%;
   @include mix.mq(tab) {
     @include mix.txt(39px,#ffffff);
   }
+}
+
+.c-txt-search-result--search {
+  @include mix.txt(13px,#ffffff);
+  font-weight: normal;
 }
 
 .c-txt-search-result--archive {
@@ -237,8 +214,6 @@
     }
   }
 }
-
-
 
 //menunav
 .c-txt-headline-h2--single {

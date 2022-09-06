@@ -35,6 +35,10 @@ i {
   width: 0;
 }
 
+input:focus::-webkit-input-placeholder {
+  color: transparent;
+}
+
 body.is-open {
   width: 100%;
   position: fixed;

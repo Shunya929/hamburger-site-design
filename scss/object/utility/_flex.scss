@@ -31,3 +31,14 @@
     order: 1;
   }
 }
+
+.c-txt-container__mainvisual {
+  gap: 6px;
+  position: absolute;
+  left: 10%;
+  top: 40%;
+  @include mix.mq(tab) {
+    display: flex;
+    align-items: baseline;
+  }
+}

@@ -2,17 +2,15 @@
 
 .p-map__main {
   overflow: visible;
-  // position: relative;
   min-height: 691px;
   height: auto;
   width: 100%;
   background-color: black;
-  // overflow-y: hidden;
   .l-container--map {
     overflow: visible;
-    // position: relative;
     height: 100%;
     width: 100%;
+    padding-bottom: 40px;
     .c-colorbox {
       top: 0;
       position: absolute;
