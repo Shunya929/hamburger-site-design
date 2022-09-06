@@ -9,11 +9,10 @@
 .p-mainvisual--archive {
   position: relative;
   background-color: black;
-  @include mix.mq(tab) {
-    min-height: 283px;
-    @include mix.mq(pc) {
-      min-height: 239px;
-    }
+  min-height: 283px;
+  height: auto;
+  @include mix.mq(pc) {
+    min-height: 239px;
   }
 }
 

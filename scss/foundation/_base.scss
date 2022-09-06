@@ -19,6 +19,10 @@ a {
   text-decoration: none;
 }
 
+img {
+  object-fit: cover;
+}
+
 ol {
   counter-reset: count;
   li:before {

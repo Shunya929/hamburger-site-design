@@ -167,7 +167,9 @@
 }
 
 .c-txt-explanation__menunav__archive {
-  @include mix.txt(10px,#3C2A10);
+  @include mix.txt(13px,#3C2A10);
+  font-weight: normal;
+  line-height: 2;
 }
 
 .c-txt-itemname__menunav__archive {

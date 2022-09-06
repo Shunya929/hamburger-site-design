@@ -22,11 +22,21 @@
 }
 
 //--archive--
-.p-mainvisual--archive {
-  background-image: url(/img/archive\ 1.svg);
-  @include mix.pic(283px); 
+// .p-mainvisual--archive {
+//   background-image: url(/img/archive\ 1.svg);
+//   @include mix.pic(283px); 
+//   @include mix.mq(pc) {
+//     @include mix.pic(239px);
+//   }
+// }
+
+.c-pic-mainvisual--archive {
+  display: block;
+  position: relative;
+  height: 283px;
+  overflow-x: hidden; 
   @include mix.mq(pc) {
-    @include mix.pic(239px);
+    height: 239px;
   }
 }
 

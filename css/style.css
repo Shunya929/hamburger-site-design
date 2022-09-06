@@ -295,6 +295,11 @@ a {
   text-decoration: none;
 }
 
+img {
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
 ol {
   counter-reset: count;
 }
@@ -474,25 +479,15 @@ body.is-open {
   overflow-x: hidden;
 }
 
-.p-mainvisual--archive {
-  background-image: url(/img/archive\ 1.svg);
+.c-pic-mainvisual--archive {
+  display: block;
   position: relative;
   height: 283px;
-  background-repeat: no-repeat;
-  background-position-x: center;
-  background-position-y: bottom;
-  background-size: cover;
   overflow-x: hidden;
 }
 @media screen and (min-width: 1281px) {
-  .p-mainvisual--archive {
-    position: relative;
+  .c-pic-mainvisual--archive {
     height: 239px;
-    background-repeat: no-repeat;
-    background-position-x: center;
-    background-position-y: bottom;
-    background-size: cover;
-    overflow-x: hidden;
   }
 }
 
@@ -1031,9 +1026,11 @@ body.is-open {
 .c-txt-explanation__menunav__archive {
   text-align: left;
   color: #3C2A10;
-  font-size: 10px;
+  font-size: 13px;
   line-height: 1.5;
   font-weight: bold;
+  font-weight: normal;
+  line-height: 2;
 }
 
 .c-txt-itemname__menunav__archive {
@@ -1441,13 +1438,10 @@ body.is-open {
 .p-mainvisual--archive {
   position: relative;
   background-color: black;
+  min-height: 283px;
+  height: auto;
 }
-@media screen and (min-width: 768px) {
-  .p-mainvisual--archive {
-    min-height: 283px;
-  }
-}
-@media screen and (min-width: 768px) and (min-width: 1281px) {
+@media screen and (min-width: 1281px) {
   .p-mainvisual--archive {
     min-height: 239px;
   }
