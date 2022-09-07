@@ -47,4 +47,10 @@
 .label2 {
   display: inline-block;
   width: 80px;
+  @include mix.mq(tab) {
+    width: 100px;
+    @include mix.mq(pc) {
+      width: 140px;
+    }
+  }
 }

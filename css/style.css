@@ -1317,6 +1317,16 @@ body.is-open {
   display: inline-block;
   width: 80px;
 }
+@media screen and (min-width: 768px) {
+  .label2 {
+    width: 100px;
+  }
+}
+@media screen and (min-width: 768px) and (min-width: 1281px) {
+  .label2 {
+    width: 140px;
+  }
+}
 
 .c-item-menu__archive {
   width: 100%;
