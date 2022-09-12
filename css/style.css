@@ -425,7 +425,7 @@ body.is-open {
 }
 
 .p-main-visual {
-  background-image: url(/img/main-visual1.png);
+  background-image: url("../img/main-visual1.png");
   position: relative;
   height: 285px;
   background-repeat: no-repeat;
@@ -447,7 +447,7 @@ body.is-open {
 }
 
 .l-container--first {
-  background-image: url(/img/main-visual2.png);
+  background-image: url("../img/main-visual2.png");
   position: relative;
   height: 642px;
   background-repeat: no-repeat;
@@ -458,7 +458,7 @@ body.is-open {
 }
 
 .l-container--second {
-  background-image: url(/img/main-visual3.png);
+  background-image: url("../img/main-visual3.png");
   position: relative;
   height: 643px;
   background-repeat: no-repeat;
@@ -469,7 +469,7 @@ body.is-open {
 }
 
 .p-map__main {
-  background-image: url(/img/map.svg);
+  background-image: url("../img/map.svg");
   position: relative;
   height: 691px;
   background-repeat: no-repeat;
@@ -480,7 +480,7 @@ body.is-open {
 }
 
 .p-mainvisual--archive {
-  background-image: url(/img/archive\ 1.svg);
+  background-image: url("../img/archive 1.svg");
   position: relative;
   height: 283px;
   background-repeat: no-repeat;
@@ -505,7 +505,7 @@ body.is-open {
 }
 
 .c-pic__menunav__archive {
-  background-image: url(/img/archive2.svg);
+  background-image: url("../img/archive2.svg");
   position: relative;
   height: 230px;
   background-repeat: no-repeat;
@@ -552,7 +552,7 @@ body.is-open {
 }
 
 .p-mainvisual--single {
-  background-image: url(/img/single1.svg);
+  background-image: url("../img/single1.svg");
   position: relative;
   height: 225px;
   background-repeat: no-repeat;
@@ -574,7 +574,7 @@ body.is-open {
 }
 
 .c-pic-menunav--single {
-  background-image: url(/img/single2.svg);
+  background-image: url("../img/single2.svg");
 }
 .c-pic-menunav--single--large {
   position: relative;
@@ -669,7 +669,7 @@ body.is-open {
 }
 
 .p-mainvisual--page {
-  background-image: url(/img/page1.svg);
+  background-image: url("../img/page1.svg");
   position: relative;
   height: 225px;
   background-repeat: no-repeat;
@@ -1659,4 +1659,5 @@ body.is-open {
 /* Component ------------ */
 /* Project ------------ */
 /* Utility ------------ */
+
 /*# sourceMappingURL=style.css.map */
