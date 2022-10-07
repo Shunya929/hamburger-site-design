@@ -1,2 +1,2 @@
 # hamburger-site-design
-git test
+ハンバーガーサイトの静的サイトです
